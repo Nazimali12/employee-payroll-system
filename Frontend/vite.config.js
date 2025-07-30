@@ -8,9 +8,17 @@ export default defineConfig({
     react(),
     svgr()
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    }
+  },
   resolve: {
     alias: {
-      '@': '/src'
+      '@': '/src',
+      '@assets': '/src/assets'
     }
   }
 })
