@@ -72,12 +72,7 @@ const Contact = () => {
                         animate={viewDiv && "visible"}
                         variants={headingAnimation}
                     >
-                        Frontend/
-                          src/
-                            assets/
-                              images/
-                                LoginImg/
-                                  login.svg  # Add your SVG file here                        <h1 className="text-4xl font-semibold drop-shadow-md text-center text-accent dark:text-white">
+                        <h1 className="text-4xl font-semibold drop-shadow-md text-center text-accent dark:text-white">
                             Contact <span className="text-primary">Us</span>
                         </h1>
                         <BottomLine />
