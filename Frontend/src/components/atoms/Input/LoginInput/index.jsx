@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../../../../config/redux/action';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
-import aboutImg from '/images/aboutSipeka.svg'
 
 function LoginInput() {
   const [username, setUsername] = useState("");
